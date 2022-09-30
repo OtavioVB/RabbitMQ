@@ -12,11 +12,24 @@ Com esse protocolo é possível que independente de qual linguagem utilizada par
 
 Sua origem se deu da necessidade da integração entre os diferentes tipos de sistemas sendo desenvolvido pelas empresas, como apontado no [artigo](https://learn.microsoft.com/pt-br/azure/service-bus-messaging/service-bus-amqp-overview), produtos de [middleware](https://www.redhat.com/pt-br/topics/middleware/what-is-middleware) usavam protocolos proprietários para comunicação entre o aplicativo e o cliente, o que causava uma certa dependência de serviço, já que os desenvolvedores que integrassem a esse serviço teriam que utilizar bibliotecas próprias desses middlewares.
 
+Por outro lado, aplicações que necessitam da utilização de dois serviços de mensageria diferentes, requerem a realização de uma ponte no nível de aplicação, de modo que consiga converter para as mensagens proprietárias.
+
+Conforme falado, passou a haver a necessidade de criação de um padrão para essas comunicações, criando uma interconexão direta entre os agentes de conexão utilizando o [Apache Qpid Dispatch Router](https://qpid.apache.org/components/dispatch-router/index.html).
+
+#### Apache Qpid Dispatch Router
+
+O Dispatch Router é um roteador de mensagens (seleção os caminhos nas quais os pacotes irão fazer desde sua origem até seu destino) AMQP, ou seja, realiza a determinação da "viagem" realizada pelos pacotes de mensagens.
+
 ## O que são protocolos de rede?
 
 Protocolos de rede são normas que permitem a comunicação de dados/informações entre dois computadores/servidores. Sendo responsáveis por pegar os dados e dividir em pacotes, nas quais cada pacote possui um endereçamento de destino e origem.
 
 ![](IMGS/example.png)
+
+## Estrutura
+
+![](IMGS/structure.png)
+
 
 # Fontes
 - [Documentação Microsoft](https://learn.microsoft.com/pt-br/azure/service-bus-messaging/service-bus-amqp-overview)
