@@ -42,10 +42,6 @@ Servidor de filas, na qual implemente o protocolo AMQP, roteando até seus consu
 
 Objeto responsável por aceitar e validar a mensagem, de modo a utilizar critérios expostos pelo binding.
 
-##### Direct
-
-##### Topic
-
 #### Bindings
 
 Objeto responsável por dizer como o ele deve encaminhar as mensagens, para qual fileira e destino, de modo a atender os critérios utilizados pelo cliente de origem.
