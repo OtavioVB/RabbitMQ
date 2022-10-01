@@ -30,8 +30,38 @@ Protocolos de rede são normas que permitem a comunicação de dados/informaçõ
 
 ![](IMGS/structure.png)
 
+### Publisher
+
+Entidade ou máquina que envia os dados para o servidor de enfileiramento de mensagens (broker).
+
+### Broker
+
+Servidor de filas, na qual implemente o protocolo AMQP, roteando até seus consumidores.
+
+#### Exchange
+
+Objeto responsável por aceitar e validar a mensagem, de modo a utilizar critérios expostos pelo binding.
+
+##### Direct
+
+##### Topic
+
+#### Bindings
+
+Objeto responsável por dizer como o ele deve encaminhar as mensagens, para qual fileira e destino, de modo a atender os critérios utilizados pelo cliente de origem.
+
+#### Messages Queues
+
+Objeto responsável por armazenar em memória ou disco e entregar em sequência para o destinátario final.
+
+### Consumer
+
+Aplicações/Programas/Projetos responsável por consumir as filas de mensagens.
+
 
 # Fontes
 - [Documentação Microsoft](https://learn.microsoft.com/pt-br/azure/service-bus-messaging/service-bus-amqp-overview)
 - [Wikipédia - RabbitMQ](https://pt.wikipedia.org/wiki/RabbitMQ)
 - [Conceito de Middleware](https://www.redhat.com/pt-br/topics/middleware/what-is-middleware)
+- [Artigo NelsonSaar](http://nelsonsar.github.io/2013/10/29/AMQP-building-blocks.html)
+- [Documentação RabbitMQ](https://www.rabbitmq.com/tutorials/amqp-concepts.html)
