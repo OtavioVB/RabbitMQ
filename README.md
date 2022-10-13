@@ -24,11 +24,11 @@ O Dispatch Router é um roteador de mensagens (seleção os caminhos nas quais o
 
 Protocolos de rede são normas que permitem a comunicação de dados/informações entre dois computadores/servidores. Sendo responsáveis por pegar os dados e dividir em pacotes, nas quais cada pacote possui um endereçamento de destino e origem.
 
-![](IMGS/example.png)
+![](imgs/example.png)
 
 ## Estrutura
 
-![](IMGS/structure.png)
+![](imgs/structure.png)
 
 ### Publisher
 

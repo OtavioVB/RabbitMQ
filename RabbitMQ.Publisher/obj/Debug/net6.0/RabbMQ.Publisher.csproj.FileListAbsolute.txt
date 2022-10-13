@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net6.0\RabbMQ.Publisher.exe
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net6.0\RabbMQ.Publisher.deps.json
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net6.0\RabbMQ.Publisher.runtimeconfig.json
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net6.0\RabbMQ.Publisher.dll
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net6.0\RabbMQ.Publisher.pdb
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\RabbMQ.Publisher.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\RabbMQ.Publisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\RabbMQ.Publisher.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\RabbMQ.Publisher.AssemblyInfo.cs
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\RabbMQ.Publisher.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\RabbMQ.Publisher.csproj.CopyComplete
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\RabbMQ.Publisher.dll
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\refint\RabbMQ.Publisher.dll
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\RabbMQ.Publisher.pdb
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\RabbMQ.Publisher.genruntimeconfig.cache
+C:\Users\Admin\Desktop\RabbitMQ\RabbitMQ.Publisher\obj\Debug\net6.0\ref\RabbMQ.Publisher.dll
