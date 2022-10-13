@@ -16,7 +16,12 @@ internal class Program
         {
             using (var channel = connection.CreateModel())
             {
-                channel.QueueDeclare(queue: "SAUDACAO_1", durable: false, exclusive: false, autoDelete: true, arguments: null);
+                channel.QueueDeclare(
+                    queue: "SAUDACAO_1", // nome da fila
+                    durable: false, // permitir a fila permanecer ativa após o servidor ser reiniciado
+                    exclusive: false, // acessar apenas pela conexão atual
+                    autoDelete: true, // deletar automaticamente após a fila ser consumida
+                    arguments: null);
                 channel.BasicPublish(exchange: "", routingKey: "SAUDACAO_1", basicProperties: null, body: Encoding.UTF8.GetBytes("Primeira vez no RabbitMQ"));
             }
         }
