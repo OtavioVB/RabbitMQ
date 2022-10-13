@@ -8,6 +8,13 @@ AQMP é sigla para definição de Protocolo avançado de enfileiramento de mensa
 
 Com esse protocolo é possível que independente de qual linguagem utilizada para o desenvolvimento de uma aplicação ou qual tipo de sistema operacional utilizado para hospedar a aplicação, é possível que você mantenha dois projetos ou aplicações em comunicação. Sendo assim, pode-se dizer que o protocolo AMPQ é responsável por integrar API's/IoT/Web Applications entre outros.
 
+## Comando para rodar o RabbitMQ
+- Diretório: C:\Program Files\RabbitMQ Server\rabbitmq_server-(version)\sbin
+- Comando: rabbitmq-plugins enable rabbitmq-magagement
+http://localhost:15672
+Credenciais:
+guest guest
+
 ### Origem
 
 Sua origem se deu da necessidade da integração entre os diferentes tipos de sistemas sendo desenvolvido pelas empresas, como apontado no [artigo](https://learn.microsoft.com/pt-br/azure/service-bus-messaging/service-bus-amqp-overview), produtos de [middleware](https://www.redhat.com/pt-br/topics/middleware/what-is-middleware) usavam protocolos proprietários para comunicação entre o aplicativo e o cliente, o que causava uma certa dependência de serviço, já que os desenvolvedores que integrassem a esse serviço teriam que utilizar bibliotecas próprias desses middlewares.
